@@ -1,0 +1,89 @@
+
+  /* Custom styles for CountUp numbers */
+  .countup-number {
+    font-size: 2.5rem; /* Increase the font size */
+    color: #000; /* Change the text color */
+    font-weight: bold; /* Add bold text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a text shadow */
+  }
+
+  /* Style for the page header */
+  .page-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+
+  /* Style for the countup widgets container */
+  .countup-widgets-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow widgets to wrap to the next line if needed */
+    margin: 20px;
+  }
+
+  /* Style for individual countup widgets */
+  .countup-widget {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1; /* Make widgets grow to fill available space */
+  }
+
+  /* Style for the generation mix container */
+  .generation-mix-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the column width as needed */
+    gap: 20px; /* Adjust the gap between widgets as needed */
+    margin: 20px;
+  }
+  .generation-mix-widget {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1; /* Make widgets grow to fill available space */
+  }
+
+  /* Style for the loading spinner */
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.3);
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite; /* Apply the spin animation */
+  margin: 0 auto; /* Center the spinner */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.list-item {
+  list-style-type: none;
+  margin: 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.key {
+  font-weight: bold;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
